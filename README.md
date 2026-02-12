@@ -1,16 +1,17 @@
 # Face Recognition & Processing Pipeline
-**Proyek Akhir Pemodelan dan Pembelajaran Mesin - Universitas Indonesia**
+**Final Project Pemodelan dan Pembelajaran Mesin - Universitas Indonesia**
 
-## 📌 Deskripsi
-Proyek ini bertujuan untuk mendeteksi dan mengenali identitas melalui gambar secara otomatis dengan pendekatan Deep Learning.
+## 📌 Project Overview
+This project focuses on building an automated identity verification system using Deep Learning. By combining Convolutional Neural Networks (CNN) for feature extraction and Backpropagation Neural Networks (BPNN) for classification, the pipeline can accurately identify individuals from digital images.
 
-## 🛠️ Alur Kerja Teknis
-1. **Data Preprocessing**: Normalisasi citra dan penyesuaian dimensi gambar agar siap dilatih oleh model.
-2. **Feature Extraction**: Menggunakan layer **CNN** untuk menangkap pola-pola unik pada wajah.
-3. **Classification**: Menggunakan **BPNN** untuk menentukan identitas berdasarkan fitur yang telah diekstraksi.
+## 🛠️ Technical Workflow
+**Data Preprocessing:** Implemented Python scripts for image normalization and data cleaning to ensure consistent input dimensions and improve training stability.
+**Feature Extraction (CNN):** Utilized Convolutional layers to automatically detect and extract unique facial patterns and spatial hierarchies.
+**Classification (BPNN):** Integrated a Backpropagation Neural Network to classify the extracted features into specific identities.
+**Evaluation:** Validated model performance using accuracy metrics and loss functions to ensure reliable verification.
 
-## 🧪 Tech Stack
-* **Framework:** TensorFlow, Keras 
-* **Libraries:** NumPy (array manipulation), Pandas (data management), Matplotlib (visualization), Scikit-Learn (evaluation) 
-* **Tools:** Google Colab
-
+## 💻 Tech Stack
+**Deep Learning Framework:** TensorFlow & Keras
+**Data Manipulation:** NumPy, Pandas
+**Visualization & Evaluation:** Matplotlib, Scikit-Learn
+**Environment:** Google Colab
